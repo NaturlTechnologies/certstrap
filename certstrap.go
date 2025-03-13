@@ -20,12 +20,12 @@ package main
 import (
 	"os"
 
-	"github.com/square/certstrap/cmd"
-	"github.com/square/certstrap/depot"
+	"github.com/NaturlTechnologies/certstrap/cmd"
+	"github.com/NaturlTechnologies/certstrap/depot"
 	"github.com/urfave/cli"
 )
 
-var release = "1.3.0"
+var release = "1.3.1"
 
 func main() {
 	app := cli.NewApp()

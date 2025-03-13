@@ -6,7 +6,7 @@
 # To run certstrap from the image (for example):
 #     docker run --rm squareup/certstrap --version
 
-FROM golang:1.18-alpine as build
+FROM golang:1.23-alpine as build
 
 WORKDIR /app
 
@@ -20,7 +20,7 @@ RUN go mod download
 COPY . .
 
 # Build
-RUN CGO_ENABLED=0 go build -buildvcs=false -o /usr/bin/certstrap github.com/square/certstrap
+RUN CGO_ENABLED=0 go build -buildvcs=false -o /usr/bin/certstrap github.com/NaturlTechnologies/certstrap
 
 # Create a multi-stage build with the binary
 FROM gcr.io/distroless/static

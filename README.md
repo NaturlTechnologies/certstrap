@@ -1,7 +1,7 @@
 # certstrap
-[![godoc](http://img.shields.io/badge/godoc-certstrap-blue.svg?style=flat)](https://godoc.org/github.com/square/certstrap)
-[![CI](https://github.com/square/certstrap/actions/workflows/go.yml/badge.svg)](https://github.com/square/certstrap/actions/workflows/go.yml)
-[![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://raw.githubusercontent.com/square/certstrap/master/LICENSE)
+[![godoc](http://img.shields.io/badge/godoc-certstrap-blue.svg?style=flat)](https://godoc.org/github.com/NaturlTechnologies/certstrap)
+[![CI](https://github.com/NaturlTechnologies/certstrap/actions/workflows/go.yml/badge.svg)](https://github.com/NaturlTechnologies/certstrap/actions/workflows/go.yml)
+[![license](http://img.shields.io/badge/license-apache_2.0-red.svg?style=flat)](https://raw.githubusercontent.com/NaturlTechnologies/certstrap/master/LICENSE)
 
 A simple certificate manager written in Go, to bootstrap your own certificate authority and public key infrastructure.  Adapted from etcd-ca.
 
@@ -28,7 +28,7 @@ certstrap can init multiple certificate authorities to sign certificates with.  
 certstrap must be built with Go 1.18+. You can build certstrap from source:
 
 ```
-$ git clone https://github.com/square/certstrap
+$ git clone https://github.com/NaturlTechnologies/certstrap
 $ cd certstrap
 $ go build
 ```

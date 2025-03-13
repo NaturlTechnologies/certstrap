@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/square/certstrap/pkix"
+	"github.com/NaturlTechnologies/certstrap/pkix"
 )
 
 // curves is a map of canonical curve name (as specified by the -curve flag)

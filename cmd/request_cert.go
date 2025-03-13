@@ -24,8 +24,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/square/certstrap/depot"
-	"github.com/square/certstrap/pkix"
+	"github.com/NaturlTechnologies/certstrap/depot"
+	"github.com/NaturlTechnologies/certstrap/pkix"
 	"github.com/urfave/cli"
 )
 
